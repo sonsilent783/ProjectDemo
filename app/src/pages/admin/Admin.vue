@@ -1,0 +1,30 @@
+<template>
+      <div>
+        <Nav />
+        <div class="wrapper">
+          <div class="left-content">
+            <SideBar />
+            <div class="right-content"></div>
+            <router-view />
+          </div>
+        </div>
+      </div>
+
+
+</template>
+
+<script>
+import Nav from '@/components/Nav.vue'
+import SideBar from '@/components/SideBar.vue';
+export default {
+    name: 'Admin',
+    components: {
+        Nav,
+        SideBar
+    }
+}
+</script>
+
+<style>
+
+</style>
