@@ -31,13 +31,36 @@ export default {
                 })
            });
 
-           await router.push('/admin/products');
+           await router.push('/products');
        }
        
        return {title, image, submit}
     }
     
 }
+/*import axios from 'axios'
+export default{
+    mame :'ProductCreate',
+    data (){
+        return{
+            products:[]
+        }
+    },
+    methods:{
+        async createProducts(id){
+            try{
+                console.log(id)
+                let res = await axios
+            .get('http://localhost:3000/products/${id}');
+            console.log("Product created successfully");
+                console.log(res)
+                 this.createProducts();
+            }catch(error){
+                console.error("error created",error);
+            }
+    }
+}
+}*/
 </script>
 
 <style>

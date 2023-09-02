@@ -1,6 +1,6 @@
 <template>
     <div class="nav-bar">
-      <div class="title">BasicsAdmin</div>
+      <div class="title">ComputerAccessories</div>
       <ul class="top-nav">        
           <li>
           <a href='/'>Logout</a>

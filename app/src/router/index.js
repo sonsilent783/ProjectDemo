@@ -8,13 +8,13 @@ import ProductEdit from '../pages/admin/ProductEdit.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    {
+   /* {
       path: '/',
       name: 'Main',
       component: Main
-    },
+    },*/
     {
-      path: '/admin',
+      path: '/',
       name: 'Admin',
       component: Admin,
       children: [

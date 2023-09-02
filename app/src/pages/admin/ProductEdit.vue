@@ -39,7 +39,7 @@ export default {
                 })
            });
 
-           await router.push('/admin/products');
+           await router.push('/products');
        }
        
        return {title, image, submit}
