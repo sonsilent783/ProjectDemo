@@ -4,7 +4,7 @@
     <table>
         <thead>
             <tr>
-                <th>#idno</th>
+                <th>#id</th>
                 <th>Title</th>
                 <th>Image</th>
                 <th>Actions</th>

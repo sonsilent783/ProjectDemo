@@ -1,6 +1,6 @@
 <template>
     <div class="nav-bar">
-      <div class="title">ComputerAccessories</div>
+      <div class="title">Computer items</div>
       <ul class="top-nav">        
           <li>
           <a href='/'>Logout</a>
