@@ -44,12 +44,12 @@
     margin-top: 20px;
   }
   .side-menu li {
-    border-bottom: dashed 1px #cfd3d8;
+    border-bottom: dashed 1px #000000;
   }
   .side-menu a {
     display: block;
     padding: 10px 15px;
-    color: #343a40;
+    color: #040405;
     text-decoration: none;
   }
   .right-content {
@@ -57,12 +57,12 @@
     flex: 9;
   }
   table {
-    width: 100%;
+    width: 1260px;
     max-width: 100%;
     background-color: transparent;
     border-collapse: collapse;
-    border-top: 1px solid #dee2e6;
-    border-left: 1px solid #dee2e6;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #010102;
   }
   table thead th {
     vertical-align: bottom;
@@ -71,8 +71,8 @@
   td,
   th {
     padding: 0.3rem;
-    border-bottom: 1px solid #dee2e6;
-    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #040608;
+    border-right: 1px solid #000000;
   }
   table td,
   table th {
@@ -82,7 +82,7 @@
   .btn,
   button {
     display: inline-block;
-    background: #007bff;
+    background: #554cd3;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
